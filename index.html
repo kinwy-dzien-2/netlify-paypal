@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <meta charset="UTF-8">
+    <title>Support</title>
+    <style>
+        body {
+            background-color: #262626;
+            color : #E5EFED;
+
+        }
+        .jumbotron{
+            text-align: center;
+            padding : 1rem;        
+        }
+        strong{
+            color: #BA3D51;
+        }
+        table {
+            text-align: center;
+        }
+        tbody{
+            color : #E5EFED !important;
+        }
+        thead{
+            color:#f84405  !important;
+            font-weight: bold;
+        }
+        tr:nth-child(even){
+            background-color: #414040 !important;
+        }
+        tbody tr:nth-child(odd){
+            background-color: #343a40 !important; ;
+        }
+        table td{
+            border: 0 !important;
+
+        }
+        .blink_text {
+
+            animation:1s blinker linear infinite;
+            -webkit-animation:1s blinker linear infinite;
+            -moz-animation:1s blinker linear infinite;
+
+        }
+        
+        .table td, .table th{
+            padding : 0 !important;
+        }
+
+        @-moz-keyframes blinker {
+            0% { opacity: 1.0; }
+            50% { opacity: 0.0; }
+            100% { opacity: 1.0; }
+        }
+
+        @-webkit-keyframes blinker {
+            0% { opacity: 1.0; }
+            50% { opacity: 0.0; }
+            100% { opacity: 1.0; }
+        }
+
+        @keyframes blinker {
+            0% { opacity: 1.0; }
+            50% { opacity: 0.0; }
+            100% { opacity: 1.0; }
+        }
+        .cordonnees{
+            text-align: center !important;
+        }
+        .orange {
+    
+            color : #f84405 !important;
+        }
+    </style>
+</head>
+<body>
+<div class="jumbotron bg-dark">
+    <h2 class="h2">Faites un don pour nous aider et avoir une navigation sans pubs .Le don se fait par paypal, virement bancaire ou par crypto (veuillez me contacter pour le don par crypto)!</h2>
+</div>
+<div class="container">
+    <ol class="list-unstyled">
+        <li class="h5 mb-3 row"> 
+            <p  class='col-12 cordonnees' style="font-size: 1.5em">1- connectez vous a votre compte paypal </p>
+            <p  class='col-12 cordonnees orange'>Envoyez à: khiachah@gmail.com </p>
+            <p  class='col-12 cordonnees'>selectionnez le montant </p> 
+            <div class="row table-responsive">
+                <table class="table table-striped">
+                    <thead style="background-color:#212444 !important;">
+                    <!--            -->
+                    <tr>
+                        <td>Montant</td>
+                        <td>Durée de l'abonnement </td>
+<!--                        <td>Bonus</td>-->
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>12 Euros</td>
+                        <td>3 Mois Navigation Sans Pubs</td>
+<!--                        <td>Navigation Sans Pubs</td>-->
+                    </tr>
+                    <tr class="bg-dark">
+                        <td>22 Euros</td>
+                        <td>6 Mois Navigation Sans Pubs</td>
+<!--                        <td>Navigation Sans Pubs</td>-->
+                    </tr>
+                    <tr>
+                        <td>32 Euros</td>
+                        <td>9 Mois Navigation Sans Pubs</td>
+<!--                        <td>Navigation Sans Pubs</td>-->
+                    </tr>
+                    <tr class="bg-dark">
+                        <td>40 Euros</td>
+                        <td>12 Mois Navigation Sans Pubs</td>
+<!--                        <td>Navigation Sans Pubs</td>-->
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </li>
+        <li class="row">
+            <div class="shadow col-8 offset-2  p-5 bg-dark" style="text-align: center">
+                <h3>A ne pas oublier :   <span class="badge badge-danger blink_text">Très important</span></h3>
+                <span class="h5">Dans la case Ajouter un message ou Motif de paiement : Ecrivez <strong> ( Service Freelance + votre pseudo ) n'ajoutez rien d'autre svp .</strong> <br> Une fois le don fait envoyez moi un message privé ou un mail a winky8300@yahoo.fr en mentionnant votre pseudo,votre adresse paypal et le montant pour mettre votre compte a jour </span>
+            </div>
+         </li>
+        <li class="h5 mb-3 row"> 
+            <p  class='col-12 cordonnees' style="font-size: 1.5em">Les coordonnées bancaires sont :</p>
+            <p  class='col-12 cordonnees orange'>Mail de titulaire  du compte TW (TransferWise):</p>   
+            <p  class='col-12 cordonnees'>princewinky@gmail.com</p>
+            <p class='col-12 cordonnees orange'>Code banque (SWIFT / BIC) :</p> 
+           <p class='col-12 cordonnees'>TRWIBEB1XXX</p>   
+           <p class='col-12 cordonnees orange'>IBAN : </p>  
+           <p class='col-12 cordonnees'>BE05 9671 5312 5475</p>
+        </li>
+    </ol>
+    <footer class="p-5 h5 text-danger" style="text-align: center; line-height:45px" >Merci beaucoup pour votre soutien et votre générosité</footer>
+
+</div>
+<script src="popper.min.js"></script>
+<script src="jquery.min.js"></script>
+<script src="bootstrap.min.js"></script>
+</body>
+</html>
